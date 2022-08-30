@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>JuegoGatoCheviches</title>
+  </head>
+  <body>
+    <!-- <header>HEADER
+        <nav>nav</nav>
+    </header>-->
+    <main class="menu-principal">
+      <!-- menu principal -->
+      <article class="inicio-juego" id="menu-inicio-juego">
+        <section class="contenido-inicio">
+          <img src="./assets/cheviches.png" alt="gatoCheviches" class="logo" />
+          <h1 class="titulo">AHORCADOS</h1>
+          <p class="subtitulo">¿Quieres jugar a ahorcados?</p>
+          <div class="contenedor-boton-inicio">
+            <img src="./assets/fondoSaturado.png" alt="fondo-uno" />
+            <button class="boton-inicio" id="boton-inicio-juego">JUGAR</button>
+          </div>
+          <button class="boton-instrucciones" id="boton-instrucciones-juego">
+            instrucciones
+          </button>
+        </section>
+      </article>
+      <!-- instrucciones-juego -->
+      <article class="instruciones-juego" id="menu-instrucciones-juego">
+        <section class="contenido-instrucciones">
+          <img src="./assets/cheviches.png" alt="gatoCheviches" class="logo" />
+          <h1 class="titulo-instrucciones">INSTRUCIONES</h1>
+          <div class="instrucciones">
+            <ul>
+              <li>
+                <strong> OBJETIVO. </strong>
+                <p>
+                  No dejar escapar al
+                  <span class="gato">gato Cheviches</span>.
+                </p>
+              </li>
+              <li>
+                <strong> DESCRIPCION. </strong>
+                <p>
+                  Adivinar la palabra, antes de que el gato de cheviches
+                  desaparesca. Tienes una <span class="pista">pista</span>.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <button
+            class="boton-instruccion-inicio"
+            id="boton-instruccion-inicio"
+          >
+            JUGAR
+          </button>
+        </section>
+      </article>
+      <!-- juego -->
+      <article class="contenedor-juego" id="contenedor-juego-principal">
+        <section class="evento-referencia">
+          <div class="referencia-acertijo">
+            <img src="./assets/pregunta1.png" alt="referencia" />
+          </div>
+          <div class="referencia-juego">
+            <p>Tienes <span>10</span> oportunidades</p>
+            <div class="reiniciar" id="boton-reiniciar">
+              <p>¿Quieres empezar otra vez?</p>
+              <button>Empieza</button>
+            </div>
+          </div>
+        </section>
+        <section class="evento-juego">
+          <div class="tarjeta-gato">
+            <figure>
+              <img
+                src="./assets/cheviches.png"
+                alt="gatoCheviches"
+                class="gato-desaparecido"
+              />
+            </figure>
+          </div>
+          <div class="tarjera-letra">
+            <p class="acierto">
+              <img src="./assets/carta.png" alt="soldado" />acierto
+            </p>
+            <p class="acierto">
+              <img src="./assets/carta.png" alt="soldado" />acierto
+            </p>
+            <p class="acierto">
+              <img src="./assets/carta.png" alt="soldado" />acierto
+            </p>
+            <p class="acierto">
+              <img src="./assets/carta.png" alt="soldado" />acierto
+            </p>
+            <p class="acierto">
+              <img src="./assets/carta.png" alt="soldado" />acierto
+            </p>
+            <p class="acierto">
+              <img src="./assets/carta.png" alt="soldado" />acierto
+            </p>
+          </div>
+        </section>
+        <section class="contenedor-abecedario">
+          <form action="/" class="form">
+            <ul>
+              <li class="letra letraA">
+                <button>A</button>
+              </li>
+              <li class="letra letraB">
+                <button>B</button>
+              </li>
+              <li class="letra letraC">
+                <button>C</button>
+              </li>
+              <li class="letra letraD">
+                <button>D</button>
+              </li>
+              <li class="letra letraE">
+                <button>E</button>
+              </li>
+              <li class="letra letraF">
+                <button>F</button>
+              </li>
+              <li class="letra letraG">
+                <button>G</button>
+              </li>
+              <li class="letra letraH">
+                <button>H</button>
+              </li>
+              <li class="letra letraI">
+                <button>I</button>
+              </li>
+              <li class="letra letraJ">
+                <button>J</button>
+              </li>
+              <li class="letra letraK">
+                <button>K</button>
+              </li>
+              <li class="letra letraL">
+                <button>L</button>
+              </li>
+              <li class="letra letraM">
+                <button>M</button>
+              </li>
+              <li class="letra letraN">
+                <button>N</button>
+              </li>
+              <li class="letra letraÑ">
+                <button>Ñ</button>
+              </li>
+              <li class="letra letraO">
+                <button>O</button>
+              </li>
+              <li class="letra letraP">
+                <button>P</button>
+              </li>
+              <li class="letra letraQ">
+                <button>Q</button>
+              </li>
+              <li class="letra letraR">
+                <button>R</button>
+              </li>
+              <li class="letra letraS">
+                <button>S</button>
+              </li>
+              <li class="letra letraT">
+                <button>T</button>
+              </li>
+              <li class="letra letraU">
+                <button>U</button>
+              </li>
+              <li class="letra letraV">
+                <button>V</button>
+              </li>
+              <li class="letra letraW">
+                <button>W</button>
+              </li>
+              <li class="letra letraX">
+                <button>X</button>
+              </li>
+              <li class="letra letraY">
+                <button>Y</button>
+              </li>
+              <li class="letra letraZ">
+                <button>Z</button>
+              </li>
+            </ul>
+          </form>
+        </section>
+      </article>
+      <!-- logos fondo -->
+      <aside class="parent">
+        <img src="./assets/rey.png" alt="rey" />
+        <img src="./assets/alicia.png" alt="alicia" />
+      </aside>
+    </main>
+    <!--<aside>
+        ASIDE
+        <figure>figure</figure>
+        <details>details</details>
+    </aside>
+    <footer>FOOTER</footer> -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>

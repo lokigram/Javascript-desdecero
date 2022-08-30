@@ -1,0 +1,321 @@
+/* :root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+} */
+:root {
+    --main-color        : #000;
+    --title-color       : #541690;
+    --light-text-color  : #F7F7F7;
+    --body-color        : #be48ff;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+/* :root {
+    --main-color       : #1083D6;
+    --title-color      : #2A3B47;
+    --text-color       : #697477;
+    --light-text-color : #A0A7AC;
+    --body-color : #FBFBFE;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+} */
+body{
+    color: var(--title-color);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--body-color);
+    /* height: 10   0vh; */
+    /* display: grid;
+    gap: 1rem;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr min-content; */
+}
+/* header, main, aside, footer{
+    padding: .5em;
+} */
+/* .imagen-fondo{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+} */
+/* header{
+    background-color: red;
+    grid-column: 1 / span 2;
+} */
+.inicio-juego{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.contenido-inicio{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 400px;
+    justify-items: center;
+}
+.logo{
+    height: 180px;
+    position: relative;
+    margin-left: auto;
+    top: 105px;
+}
+.titulo{
+    font-size: var(--lg);
+    margin-right: 200px;
+}
+.subtitulo{
+    color: var(--body-color);
+    background-color: var(--main-color);
+    width: 100%;
+    font-size: var(--md);
+    border-radius: 8px;
+    block-size: 3.4em;
+    font-weight: bold;
+    border: none;
+    padding: 30px 0;
+    box-sizing: border-box;
+    resize: both;
+    margin-block: 2px;
+}
+.contenedor-boton-inicio{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 194px;
+    margin-top: 1px;
+    place-items: center;
+    position: relative;
+    flex-direction: column;
+}
+.contenedor-boton-inicio img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-radius: 15px;
+}
+.boton-inicio{
+    color: var(--light-text-color);
+    border-color: var(--light-text-color);
+    background-color: transparent;
+    width: 85px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    height: 85px;
+    cursor: pointer;
+    font-size: var(--lg);
+    font-weight: bold;
+    position: absolute;
+}
+.boton-inicio:hover{
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+.boton-instrucciones{
+    color: var(--title-color);
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--title-color);
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.boton-instrucciones:hover{
+    color: var(--light-text-color);
+    background-color: var(--title-color);
+}
+/* instrucciones */
+.instruciones-juego {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+
+.contenido-instrucciones {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 400px;
+}
+.titulo-instrucciones {
+    font-size: var(--lg);
+    margin-left: 40px;
+}
+.instrucciones {
+    color: var(--body-color);
+    background-color: var(--main-color);
+    width: auto;
+    height: auto;
+    border: none;
+    border-radius: 6px;
+    padding: 20px 20px 0 20px;
+}
+.instrucciones ul {
+    list-style: none;
+}
+.instrucciones ul li p span {
+    font-weight: bold;
+}
+.boton-instruccion-inicio{
+    color: var(--title-color);
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--title-color);
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+/* juego */
+.menu-principal {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.parent {
+    position: relative;
+    bottom: 0;
+    left: 0;z-index: -1;
+}
+.parent img:nth-child(1){
+    height: 120px;
+    opacity: .35;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+.parent img:nth-child(2){
+    height: 120px;
+    opacity: .35;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.contenedor-juego {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+}
+.evento-referencia {
+    text-align: center;
+}
+.referencia-acertijo {
+    display: block;
+    background-color: var(--main-color);
+    block-size: 200px;
+    place-items: center;
+    flex-direction: column;
+}
+.referencia-juego {
+    position: sticky;
+    top: 0;
+}
+.reiniciar {
+    display: block;
+    top: 60px;
+}
+.reiniciar button {
+    color: var(--title-color);
+    width: 50%;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--title-color);
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 20px ;
+}
+.evento-juego {
+    top: 100px;
+    text-align: center;
+}
+.tarjeta-gato {
+    margin-block: 11px;
+}
+.tarjeta-gato figure {
+    margin: 0;
+}
+.tarjeta-gato figure img {
+    width: 200px;
+    height: 200px;
+}
+.tarjeta-gato div p {
+    font-weight: bold;
+    font-size: var(--sm);
+    margin-top: 0;
+    margin-bottom: 4px;
+    color: var(--title-color);
+}
+.tarjera-letra {
+    display: inline-flex;
+}
+
+.form ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form ul>* {
+    border: none;
+    flex: 0 55px; 
+}
+.letra button{
+    color: var(--title-color);
+    width: 40px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid var(--title-color);
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+@media (min-width: 640px) {
+    .contenedor-juego {
+        width: 700px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contenedor-abecedario {
+        grid-column: 1 / span 2;
+    }
+    .referencia-acertijo {
+        display: block;
+        text-align: center;
+    }
+}
+
+/* aside{
+    background-color: blue;
+}
+footer{
+    background-color: var(--hospital-green);
+    grid-column: 1 / span 2;
+} */
