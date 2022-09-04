@@ -122,7 +122,7 @@ acertijoCuatro.palabra.push(
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'N'},
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'T'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: '0'}
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'}
 )
 acertijoCinco.palabra.push(
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
