@@ -30,29 +30,65 @@ class Ahorcados{
 }
 let acertijoUno = new Ahorcados('acertijoUno', 10)
 let acertijoDos = new Ahorcados('acertijoDos', 10)
+let acertijoTres = new Ahorcados('acertijoTres', 10)
+let acertijoCuatro = new Ahorcados('acertijoCuatro', 10)
+let acertijoCinco = new Ahorcados('acertijoCinco', 10)
+let acertijoSeis = new Ahorcados('acertijoSeis', 10)
+let acertijoSiete = new Ahorcados('acertijoSiete', 10)
+let acertijoOcho = new Ahorcados('acertijoOcho', 10)
+let acertijoNueve = new Ahorcados('acertijoNueve', 10)
+let acertijoDiez = new Ahorcados('acertijoDiez', 10)
 acertijoUno.estados.push(
-    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta1.png', mensaje:'BUENA SUERTE'},
-    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/reina.png', mensaje:'FELICITACIONES'},
-    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta1.png', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta1.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta1.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
 )
 acertijoDos.estados.push(
-    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta2.png', mensaje:'BUENA SUERTE'},
-    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/reina.png', mensaje:'FELICITACIONES'},
-    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta2.png', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta2.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta2.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoTres.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta3.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta3.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoCuatro.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta4.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta4.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoCinco.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta5.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta5.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoSeis.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta6.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta6.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoSiete.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta7.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta7.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoOcho.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta8.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta8.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoNueve.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta9.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta9.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
+)
+acertijoDiez.estados.push(
+    {estado: 'inicial', gato: '../assets/cheviches.png', reina: '../assets/pregunta10.jpg', mensaje:'BUENA SUERTE'},
+    {estado: 'gana', gato: '../assets/inicio.png', reina: '../assets/FraseGato.jpeg', mensaje:'FELICITACIONES'},
+    {estado: 'pierde', gato: '../assets/perdiste.png', reina: '../assets/respuesta10.jpg', mensaje:'PERDISTE, INTENTA DE NUEVO'}
 )
 acertijoUno.palabra.push(
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'D'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'F'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'N'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'C'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
-    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'A'}
-)
-acertijoDos.palabra.push(
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'L'},
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'C'},
@@ -60,7 +96,89 @@ acertijoDos.palabra.push(
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'},
     {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'A'}
 )
-let acertijos = [acertijoUno, acertijoDos]
+acertijoDos.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'C'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'D'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'A'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'}
+)
+acertijoTres.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'S'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'N'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'}
+)
+acertijoCuatro.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'N'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'T'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: '0'}
+)
+acertijoCinco.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'A'}
+)
+acertijoSeis.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'A'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'L'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'V'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'A'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'D'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'}
+)
+acertijoSiete.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'P'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'Ñ'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'S'},
+)
+acertijoOcho.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'P'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'S'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'B'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'L'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'}
+)
+acertijoNueve.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'D'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'L'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'R'}
+)
+acertijoDiez.palabra.push(
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'T'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'I'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'E'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'M'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'P'},
+    {nombre: 'soldado', imagenCarta: '../assets/carta.png', letra: 'O'}
+)
+
+let acertijos = [acertijoUno, acertijoDos, acertijoTres, acertijoCuatro, acertijoCinco, acertijoSeis, acertijoSiete, acertijoOcho, acertijoNueve, acertijoDiez]
 const tecladoJuego = [
                 "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P",
                 "A", "S", "D", "F", "G", "H", "J", "K", "L","Ñ",
@@ -100,9 +218,9 @@ function asignaLetraCarta(letra, boton){
         boton.style.background = '#06FF00'                 
     }else{
         boton.style.background = '#FF1818'
+        oportunidades--
+        oportunidadesJugador.innerHTML = oportunidades
     }
-    oportunidades--
-    oportunidadesJugador.innerHTML = oportunidades
     boton.disabled = true
 }
 function encontrarPalabra(){
