@@ -22,100 +22,93 @@
         <nav>nav</nav>
     </header>-->
     <main class="menu-principal">
-
+      <!-- logos fondo -->
+      <div class="parent">
+        <img src="./assets/rey.png" alt="rey" />
+        <img src="./assets/alicia.png" alt="alicia" />
+      </div>
       <!-- menu principal -->
-      <article class="inicio-juego" id="menu-inicio-juego">
-        <section class="contenido-inicio">
-          <div class="contenido-titulo-inicio">
-            <h1 class="titulo">AHORCADOS</h1>
-            <img src="./assets/cheviches.png" alt="gatoCheviches" class="logo" />
-          </div>
-          <p class="subtitulo">¿Quieres jugar a ahorcados?</p>
-          <div class="contenedor-boton-inicio">
-            <img src="./assets/fondoSaturado.png" alt="fondo-uno" />
-            <button class="boton-inicio" id="boton-inicio-juego">JUGAR</button>
-          </div>
-          <button class="boton-instrucciones" id="boton-instrucciones-juego">
-            instrucciones
-          </button>
-        </section>
-      </article>
+      <section class="inicio-juego" id="menu-inicio-juego">
+        <h1 class="titulo">AHORCADOS</h1>
+        <p class="subtitulo">¿Quieres jugar ahorcados?</p>
+        <img src="./assets/cheviches.png" alt="gatoCheviches" class="logo" />
+        <div class="contenedor-boton-inicio">
+          <img src="./assets/fondoSaturado.png" alt="fondo-uno" />
+          <button class="boton-inicio" id="boton-inicio-juego">JUGAR</button>
+        </div>
+        <button class="boton-instrucciones" id="boton-instrucciones-juego">
+          instrucciones
+        </button>
+      </section>
       <!-- instrucciones-juego -->
-      <article class="instruciones-juego" id="menu-instrucciones-juego">
-        <section class="contenido-instrucciones">
-          <div class="contenido-titulo-instrucciones">
-            <h1 class="titulo-instrucciones">INSTRUCIONES</h1>
-            <img src="./assets/cheviches.png" alt="gatoCheviches" class="logo" />
-          </div>
-          <div class="instrucciones">
-            <ul>
-              <li>
-                <strong> INTRO. </strong>
-                <p>
-                  Un juego basado en el popular juego 
-                  <span class="gato">Ahorcados</span>, adaptado a la historia de alicia en el pais de las maravillas, tomando el personaje mas misterioso de la historia el gato de chesire.
-                </p>
-              </li>
-              <li>
-                <strong> OBJETIVO. </strong>
-                <p>
-                  No dejar escapar al
-                  <span class="gato">gato chesire</span>.
-                </p>
-              </li>
-              <li>
-                <strong> DESCRIPCION. </strong>
-                <p>
-                  Adivinar la palabra, antes de que el gato de chesire
-                  desaparesca. Tienes una <span class="pista">pista</span>.
-                </p>
-              </li>
-            </ul>
-          </div>
-          <button
-            class="boton-instruccion-inicio"
-            id="boton-instruccion-inicio"
-          >
-            JUGAR
-          </button>
+      <section class="instruciones-juego" id="menu-instrucciones-juego">
+        <h1 class="titulo-instrucciones">INSTRUCIONES</h1>
+        <img src="./assets/cheviches.png" alt="gatoCheviches" class="logo" />
+        <section class="instrucciones">
+          <ul>
+            <li>
+              <strong> INTRO. </strong>
+              <p>
+                Un juego basado en el popular juego
+                <span class="gato">Ahorcados</span>, adaptado a la historia de
+                alicia en el pais de las maravillas, tomando el personaje mas
+                misterioso de la historia el gato de chesire.
+              </p>
+            </li>
+            <li>
+              <strong> OBJETIVO. </strong>
+              <p>
+                No dejar escapar al
+                <span class="gato">gato chesire</span>.
+              </p>
+            </li>
+            <li>
+              <strong> DESCRIPCION. </strong>
+              <p>
+                Adivinar la palabra, antes de que el gato de chesire
+                desaparesca. Tienes una <span class="pista">pista</span>.
+              </p>
+            </li>
+          </ul>
         </section>
-      </article>
+        <button class="boton-instruccion-inicio" id="boton-instruccion-inicio">
+          JUGAR
+        </button>
+      </section>
       <!-- juego -->
       <article class="contenedor-juego" id="contenedor-juego-principal">
-        <div id="titulo-juego-principal">
-          <p>EL GATO DE CHESIRE</p>
-        </div>
+        <h1 class="titulo-juego" id="titulo-juego-principal">
+          EL GATO DE CHESIRE
+        </h1>
         <section class="evento-referencia">
-          <div class="tarjeta-gato" id="contenedor-tarjeta-gato">
-          </div>
+          <div class="tarjeta-gato" id="contenedor-tarjeta-gato"></div>
           <div class="referencia-juego">
-            <p>Tienes <span id="oportunidades">10</span> oportunidades</p>
+            <p>Desaparecere en <span id="oportunidades">10</span></p>
           </div>
         </section>
         <section class="evento-juego">
           <div class="referencia-acertijo" id="contenedor-referencia-acertijo">
+            <!-- acertijo -->
           </div>
           <div class="tarjera-letra" id="contenedor-tarjeta-letra">
+            <!-- palabra -->
           </div>
         </section>
         <section class="contenedor-teclado">
           <div class="reiniciar" id="boton-reiniciar">
-            <p id="mensaje-final"></p>
+            <p id="mensaje-final">
+              <!-- mensaje -->
+            </p>
             <p>¿Quieres empezar otra vez?</p>
             <button>Empezar</button>
           </div>
           <div class="teclado">
             <div class="letra-teclado" id="contenedor-letra-teclado">
-              </li>
+              <!-- teclado -->
             </div>
           </div>
         </section>
       </article>
-      <!-- logos fondo -->
-      <aside class="parent">
-        <img src="./assets/reyOscuro.png" alt="rey" />
-        <img src="./assets/alicia.png" alt="alicia" />
-      </aside>
     </main>
     <!--<aside>
         ASIDE
